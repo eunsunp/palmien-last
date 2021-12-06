@@ -1,0 +1,1171 @@
+@import url('https://cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.iropke {
+    font-family: 'Iropke Batang', sans-serif;
+}
+
+.noto {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* header 메뉴 부분 */
+
+header {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .nav-menu ul {
+    display: flex;
+}
+
+header .nav-menu ul li {
+    padding: 2.1875rem;
+}
+
+header .nav-menu ul li a {
+    font-family: 'Iropke Batang', 'Noto Sans KR', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+header .call-menu ul {
+    display: flex;
+    list-style: none;
+}
+
+header .call-menu ul li {
+    font-size: 0.875rem;
+}
+
+header .call-menu img {
+    width: 12px;
+    height: 12px;
+}
+
+header .call-menu h4 {
+    font-size: 1.6875rem;
+}
+
+header .bar-icon {
+    font-size: 30px;
+    display: none;
+}
+
+/* banner 컨텐츠 영역 */
+
+.banner {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.banner .banner-text {
+    position: absolute;
+    top: 11.375rem;
+    left: 8.25rem;
+}
+
+.banner .banner-text h1 {
+    color: #fff;
+    font-size: 2.6875rem;
+    font-weight: 300;
+    padding-bottom: 0.3rem;
+}
+
+.banner .banner-text p {
+    color: #fff;
+    font-size: 0.9375rem;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    position: absolute;
+    top: 42%;
+}
+
+.swiper-button-prev:after {
+    content: 'prev';
+    color: #adadad;
+    background-color: #fff;
+    padding: 20px;
+    opacity: 0.5;
+}
+
+.swiper-button-next:after {
+    content: 'next';
+    color: #adadad;
+    background-color: #fff;
+    padding: 20px;
+    opacity: 0.5;
+}
+
+/* content 영역 (메뉴 4가지) */
+
+.content01 {
+    width: 80%;
+    margin: 3.75em auto;
+}
+
+.content01::after {
+    content: "";
+    position: absolute;
+    width: 800px;
+    height: 2000px;
+    background: url('../image/bg01.png') no-repeat;
+    top: 550px;
+    right: 0;
+    z-index: -99;
+}
+
+.content01 h1 {
+    text-align: center;
+    font-size: 1.625rem;
+    font-family: 'Iropke Batang', 'Noto Sans KR', sans-serif;
+    padding-bottom: 3.125rem;
+}
+
+.content01 .menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content01 .menu .menu_01 h4, .menu_02 h4, .menu_03 h4, .menu_04 h4 {
+    font-size: 1.125rem;
+    font-family: 'Iropke Batang', 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    padding-bottom: 0.3125rem;
+}
+
+.content01 .menu .menu_01 p, .menu_02 p, .menu_03 p, .menu_04 p {
+    font-size: 0.8125rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: gray;
+    padding-bottom: 0.9375rem;
+}
+
+.content01 .menu h5 {
+    color: #000;
+    font-size: 1rem;
+    font-family: 'Iropke Batang', 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+}
+
+.content01 .menu img{
+    width: 100%;
+}
+
+/* 버튼 */
+
+.btn {
+    width: 150px;
+    border: 1px solid #333;
+    text-align: center;
+    padding: 20px 30px;
+    margin: 50px auto;
+    cursor: pointer;
+}
+
+.btn .btn-button p {
+    display: inline-block;
+    margin-right: 20px;
+    font-family: 'Iropke Batang', 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* 두번째 컨텐츠 */
+
+.content02 {
+    width: 90%;
+    margin: 0 auto;
+    background: url('../image/Difference_bg.png') no-repeat center;
+}
+
+.content02 .container {
+    padding: 180px 80px;
+    position: relative;
+}
+
+.content02 .container h2 {
+    padding-left: 35px;
+    font-size: 1.625rem;
+    font-family: 'Iropke Batang', 'Noto Sans KR', sans-serif;
+}
+
+.content02 .container ul {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.content02 .container ul li {
+    padding: 35px;
+    text-align: center;
+    font-size: 0.9375rem;
+    font-family: 'Iropke Batang', 'Noto Sans KR', sans-serif;
+    position: relative;
+}
+
+.content02 .container ul li::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 90px;
+    background-color: #000;
+    top: 50%;
+    margin-top: -50px;
+    right: 0;
+    z-index: 99;
+}
+
+.content02 .container ul li:last-child::after {
+    display: none;
+}
+
+.content02 .container ul li img {
+    margin-bottom: 10px;
+}
+
+.content02 .container a {
+    border: 1px solid #333;
+    padding: 20px 35px;
+    margin-left: 35px;
+    font-family: 'Iropke Batang', 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* 3번째 컨텐츠 배너 */
+
+.content03{
+    width: 63%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.content03 .content-banner{
+    display:flex;
+    justify-content: space-between;
+}
+
+.content03 .content-banner .bn01{
+    width: 100%;
+    background:url('../image/Interior_img02.png');
+    background-size: cover;
+    position: relative;
+    margin-right: 10px;
+}
+
+.content03 .content-banner .bn02{
+    width: 100%;
+    background:url('../image/center_img.png');
+    background-size: cover;
+}
+
+.content03 .content-banner .bn01 .slide{
+    position:absolute;
+    left: 10px;
+    width: 35%;
+    z-index: 10;
+}
+
+.content03 .content-banner .bn01::after{
+    content: "";
+    background-color: #917c64;
+    position:absolute;
+    width: 35%;
+    height:100%;
+    top: 0;
+    left: 0;
+    opacity:0.8;
+    z-index: 3;
+}
+
+.content03 .content-banner .bn01 .slide img{
+    padding: 30px 0 90px 0;
+}
+
+.content03 .content-banner .bn01 .slide p{
+    color: #fff;
+    font-size: 13px;
+}
+
+.content03 .content-banner .bn01 .slide h4{
+    color: #fff;
+    font-size: 20px;
+    padding-bottom: 60px;
+}
+
+.content03 .content-banner .bn01 .slide ul{
+    display:flex;
+}
+
+.content03 .content-banner .bn01 .slide ul li:first-child{
+    opacity: 1;
+}
+
+.content03 .content-banner .bn01 .slide ul li{
+    width: 7px;
+    height:7px;
+    border-radius: 7px;
+    background-color: #fff;
+    margin-right: 5px;
+    opacity:0.3;
+}
+
+.content03 .content-banner .bn02{
+    position: relative;
+}
+
+.content03 .content-banner .bn02 .bn02-box{
+    width: 75%;
+    margin: 20px auto;
+    padding: 100px 50px;
+}
+
+.content03 .content-banner .bn02::after{
+    content: "";
+    border: 1px solid #b9b9b9;
+    position: absolute;
+    width:96%;
+    height:92%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    margin: 2%;
+}
+
+.content03 .content-banner .bn02 .bn02-box h4{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.content03 .content-banner .bn02 .bn02-box p{
+    font-size: 14px;
+    color: #bbb;
+    text-align:center;
+}
+
+/* 매장찾기 */
+
+.content_location {
+    width: 45%;
+    margin: 0 auto;
+}
+
+.content_location .wrap_three h3 {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.content_location .wrap_three .location_input .location_input_select {
+    display: flex;
+}
+
+.location_input .location_input_select .container {
+    width: 25%;
+}
+
+.location_input .location_input_select .container input {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.location_input .location_input_select .container_02 {
+    width: 50%;
+    margin: 0 10px;
+}
+
+.location_input .location_input_select .container_02 input {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.location_input .location_input_select .check_box {
+    width: 25%;
+}
+
+.location_input .location_input_select .check_box ul {
+    border: 1px solid #333;
+    box-sizing: border-box;
+    width:100%;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 18px 14px;
+    cursor: pointer;
+}
+
+.new_store ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.new_store ul li {
+    background-color: #f3f3f3;
+    width: 32%;
+    padding: 30px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.new_store ul li span {
+    position:absolute;
+    padding:3px 5px;
+    background-color:rgb(223, 204, 35);
+    border-radius: 2px;
+    top:5px;
+    right:10px;
+}
+
+/* 중간 배너 */
+
+.imgbanner {
+    width: 90%;
+    background: url('../image/location_text_bg.png');
+    margin: 25px auto;
+}
+
+.imgbanner h2 {
+    padding: 200px 0;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+/* input 문의하기 */
+
+.input_form {
+    width: 70%;
+    margin: 70px auto;
+}
+
+.input_form::after {
+    content: "";
+    position: absolute;
+    background: url(../image/bg04.png) no-repeat;
+    width: 1175px;
+    height: 538px;
+    top: 3750px;
+    left: -340px;
+    z-index: -66;
+}
+
+.input_form .wrap_one h3 {
+    text-align: center;
+    background: url('../image/h3_bg.png') no-repeat bottom;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.input_form .wrap_one form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.input_form .wrap_one form .question_form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input_form .wrap_one form .question_form .input_left {
+    width: 48%;
+}
+
+.input_form .wrap_one form .question_form .input_right {
+    width: 48%;
+}
+
+.input_box span {
+    font-size: 15px;
+    font-weight: 600;
+    display: block;
+}
+
+.input_box .input_box_size01 {
+    width: 60%;
+}
+
+.input_box .input_box_call {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.input_box .input_box_call input {
+    width: 30%;
+    padding: 20px 10px;
+    border: 1px solid #ccc;
+}
+
+.input_box .input_box_call span {
+    margin: 0 10px;
+}
+
+.input_box .input_box_size01 input {
+    width: 100%;
+    padding: 20px 10px; 
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+.input_box .input_box_size02 {
+    width: 100%;
+}
+
+.input_box .input_box_size02 input {
+    width: 100%;
+    padding: 20px 10px; 
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+.input_box_textarea textarea {
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 373px;
+    max-height: 373px;
+}
+
+.input_right ul li {
+    font-size: 12px;
+}
+
+
+/* .input_box_textarea textarea:focus {
+    outline: none;
+} */
+
+.btn_style01 {
+    float: right;
+    padding: 10px 30px;
+    background-color: #fff;
+    cursor: pointer;
+    border: 1px solid #333;
+    font-family: 'Iropke Batang', sans-serif;
+    font-weight: 600;
+}
+
+.input_box {
+    padding-bottom: 15px;
+}
+
+.footer {
+    width: 100%;
+    background-color: #333;
+    margin: 0 auto;
+    text-align: center;
+    padding: 70px 0;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.footer ul li {
+    margin: 2px;
+}
+
+.footer ul li a {
+    color: #ccc;
+    font-size: 12px;
+    background-color: #504d50;
+    padding: 6px 12px;
+}
+
+.footer p {
+    color: #777;
+    padding-bottom: 30px;
+    font-size: 13px;
+}
+
+.footer span {
+    color: rgb(92, 92, 92);
+    font-size: 13px;
+}
+
+
+
+@media(max-width: 1025px)  {
+
+    /* header 메뉴 영역 */
+    header .nav-menu ul li {
+        padding: 2rem;
+    }
+
+    header .nav-menu ul li a {
+        font-size: 14px;
+    }
+
+    header .call-menu .call h4 {
+        font-size: 20px;
+    }
+
+    /* 배너 영역 */
+
+    .banner {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .banner img {
+        width: 100%;
+    }
+
+    .banner .banner-text {
+        position: absolute;
+        top: 7.375rem;
+        left: 5.375rem;
+    }
+
+    .banner .banner-text h1 {
+        font-size: 34px;
+    }
+
+    .banner .banner-text p {
+        font-size: 12px;
+    }
+    
+    /* 컨텐츠 영역 */
+
+    .content01 {
+        width: 90%;
+    }
+
+    .content01 .menu div {
+        width: 21%;
+    }
+
+    .content01::after {
+        width: 520px;
+        height: 1040px;
+        top: 225px;
+        right: 0;
+    }
+
+    /* 버튼 */
+
+    .btn {
+        width: 125px;
+        padding: 20px 30px;
+    }
+
+    .btn .btn-button li {
+        font-size: 10px;
+    }
+
+    /* content02 */
+
+    .content02 {
+        width: 100%;
+    }
+
+    .content02 .container {
+        padding: 178px 70px;
+    }
+
+    .content02 .container h2 {
+        padding-left: 20px;
+    }
+
+    .content02 .container ul li {
+        padding: 20px;
+    }
+
+    .content02 .container ul li p {
+        font-size: 12px;
+    }
+    /* content03 */
+
+    .content03 {
+        width: 90%;
+    }
+
+    .content03 .content-banner .bn01::after {
+        content: "";
+        background-color: #917c64;
+        position: absolute;
+        width: 40%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        opacity: 0.8;
+        z-index: 3;
+    }
+
+    .content03 .content-banner .bn02::after {
+        content: "";
+        border: 1px solid #b9b9b9;
+        position: absolute;
+        width:96%;
+        height:94%;
+        top: 0;
+        left: 0;
+        box-sizing: border-box;
+        margin: 2%;
+    }
+
+    /* 매장찾기 영역 */
+
+    .content_location {
+        width: 80%;
+    }
+
+    .imgbanner {
+        width: 90%;
+    }
+
+    .input_form {
+        width: 90%;
+    }
+
+    .input_form .wrap_one form {
+        width: 100%;
+    }
+}
+
+@media(max-width: 769px) {
+    header {
+        padding: 15px 0;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .call-menu {
+        display: none;
+    }
+
+    header .bar-icon {
+        display: block;
+    }
+
+    .content01 .menu{
+        flex-wrap: wrap;
+    }
+
+    .content01 .menu div{
+        width: 42%;
+    }
+
+    .content01::after {
+        width: 424px;
+        height: 1500px;
+        top: 420px;
+        right: 0;
+    }
+
+    .banner .banner-text h1 {
+        font-size: 1.3875rem;
+    }
+
+    .btn {
+        width: 150px;
+    }
+
+    /* content02 영역 */
+
+    .content02 {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .content02 .container {
+        background: #f9f6f0;
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    .content02 .container h2 {
+        padding-left: 25px;
+        font-size: 1.325rem;
+    }
+    
+    .content02 .container h2 br {
+        display:none;
+    }
+
+    .content02 .container ul {
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 10px;
+    }
+
+    .content02 .container ul li {
+        padding: 15px 50px;
+    }
+
+    .content02 .container a {
+        padding: 20px 55px;
+    }
+
+    /* content03 영역 */
+
+    .content03{
+        width: 90%;
+        margin: 10px auto;
+    }
+    
+    .content-banner{
+        display:flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    
+    .content-banner .bn01{
+        min-height: 320px;
+        margin-bottom: 10px;
+    }
+
+    .content03 .content-banner .bn02::after {
+        content: "";
+        border: 1px solid #b9b9b9;
+        position: absolute;
+        width: 96%;
+        height: 91%;
+        top: 0;
+        left: 0;
+        box-sizing: border-box;
+        margin: 2%;
+    }
+
+    .imgbanner {
+        width: 100%;
+    }
+
+    .imgbanner h2 {
+        padding: 120px 0;
+        color: #fff;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    .new_store ul{
+       display:none;
+    }
+
+    .input_form .wrap_one h3 {
+        font-size: 22px;
+    }
+}
+
+@media(max-width: 541px) {
+
+    .content02 .container ul li {
+        padding: 0;
+    }
+
+    .banner {
+        background: url('../image/main_visual01_phone.png') no-repeat center;
+        width: 100%;
+        height: 600px;
+    }
+
+    .banner .banner-text h1 {
+        display: none;
+    }
+
+    .banner .banner-text p {
+        display: none;
+    }
+
+    .banner img {
+        display: none;
+    }
+
+    .content01 h1 {
+        font-size: 20px;
+    }
+
+    .content01::after {
+        display: none;
+    }
+
+    .content02 .container {
+        width: 100%;
+    }
+
+    .content02 .container .iropke br {
+        display: none;
+    }
+
+    .content02 .container ul {
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .content02 .container ul li {
+        width: 50%;
+    }
+
+    .content02 .container ul li:nth-child(2)::after {
+        display: none;
+    }
+
+    .content02 .container ul li:nth-child(4)::after {
+        display: none;
+    }
+
+    .content02 .container a {
+        padding: 15px 45px;
+        margin: 0;
+    }
+
+    .content-banner .bn01{
+        min-height: 250px;
+    }
+
+    .content03 .content-banner .bn01 .slide {
+        width: 50%;
+        padding: 20px 10px;
+    }
+
+    .content03 .content-banner .bn01::after {
+        content: "";
+        background-color: #917c64;
+        position:absolute;
+        width: 100%;
+        height: 40%;
+        top: 0;
+        left: 0;
+        opacity:0.8;
+        z-index: 3;
+    }
+
+    .content03 .content-banner .bn02::after {
+        height: 88%;
+    }
+
+    .content03 .content-banner .bn01 .slide img {
+        display: none;
+    }
+
+    .content03 .content-banner .bn02 {
+        height: 160px;
+    }
+
+    .content03 .content-banner .bn02 .bn02-box {
+        padding: 18px;
+    }
+
+    .content03 .content-banner .bn02 .bn02-box h4 {
+        font-size: 16px;
+    }
+    
+    .content03 .content-banner .bn02 .bn02-box p {
+        font-size: 12px;
+    }
+
+    .input_form::after {
+        display: none;
+    }
+
+    .content_location {
+        width: 90%;
+    }
+
+    .content_location .check_box ul li img {
+        display: none;
+    }
+
+    .content_location .check_box ul li a {
+        font-size: 12px;
+    }
+
+    .content_location h3 {
+        font-size: 22px;
+    }
+
+    .imgbanner {
+        width: 100%;
+        background: url('../image/location_text_bg.png') center;
+        margin: 25px auto;
+    }
+
+    .imgbanner h2 {
+        width: 90%;
+        margin: 0 auto;
+        font-size: 20px;
+    }
+
+    .location_input .location_input_select .check_box {
+        width: 20%;
+    }
+
+    .input_form .wrap_one form .question_form {
+        display: block;
+    }
+
+    .input_form .wrap_one form .question_form .input_left {
+        width: 100%;
+    }
+
+    .input_form .wrap_one form .question_form .input_right {
+        width: 100%;
+    }
+}
+
+@media(max-width: 376px) {
+    header .logo img {
+        width: 75%;
+    }
+
+    .banner {
+        background: url('../image/main_visual01_phone.png') no-repeat center;
+        background-size: cover;
+        height: 500px;
+    }
+
+    .content01 {
+        width: 85%;
+    }
+
+    .content01 .menu div {
+        width: 45%;
+    }
+
+    .content03 .content-banner .bn01 .slide {
+        width: 60%;
+        padding: 15px 5px;
+    }
+
+    .content03 .content-banner .bn02 {
+        height: 230px;
+    }
+
+    .content03 .content-banner .bn02 .bn02-box {
+        width: 80%;
+        padding: 30px;
+        margin: 35px auto;
+    }
+
+    .content03 .content-banner .bn02::after {
+        min-height: 93%;
+        margin: 2%;
+    }
+
+    .content_location .wrap_three h3 {
+        font-size: 20px;
+        padding: 0 0 20px 0;
+    }
+
+    .location_input .location_input_select .container input {
+        padding: 15px;
+    }
+
+    .location_input .location_input_select .container_02 input {
+        padding: 15px;
+    }
+
+    .location_input .location_input_select .check_box ul {
+        padding: 13px;
+    }
+
+    .location_input .location_input_select .check_box {
+        width: 23%;
+    }
+
+    .imgbanner {
+        background-size: cover;
+        height: 250px;
+    }
+
+    .imgbanner h2 {
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 361px) {
+    .content01 .menu .menu_01 h4, .menu_02 h4, .menu_03 h4, .menu_04 h4 {
+        font-size: 14px;
+    }
+
+    .content01 .menu .menu_01 p, .menu_02 p, .menu_03 p, .menu_04 p {
+        font-size: 12px;
+    }
+
+    .content02 .container h2 {
+        padding: 0;
+    }
+
+    .content03 .content-banner .bn01 .slide {
+        width: 70%;
+    }
+
+    .content03 .content-banner .bn02 .bn02-box p br {
+        display: none;
+    }
+
+    .input_form .wrap_one h3 {
+        font-size: 20px;
+    }
+
+    .input_box .input_box_size01 input {
+        padding: 15px 10px;
+    }
+
+    .input_box .input_box_call input {
+        padding: 15px 10px;
+    }
+
+    .input_box .input_box_size02 input {
+        padding: 15px 10px;
+    }
+    
+    .footer {
+        padding: 40px 0;
+    }
+
+    .footer ul {
+        padding: 20px 0;
+    }
+
+    .footer p {
+        padding: 0 25px;
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 321px) {
+    .location_input .location_input_select .check_box {
+        width: 28%;
+    }
+}
